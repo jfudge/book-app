@@ -1,0 +1,44 @@
+.add-new-modal {
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.add-new-wrapper {
+	width: 50%;
+	max-width: 500px;
+	border-radius: 6px;
+	background-color: gainsboro;
+	padding: 2rem;
+}
+.MuiButton-containedPrimary {
+	margin: 1em;
+}
+.add input .cancel input {
+	display: none;
+}
+.add:focus .cancel:focus {
+	box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .5);
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.cancel {
+	margin: 1.5em !important;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.add {
+	margin: 1.5em !important
+}
+.MuiInputBase-input {
+	width: 100%;
+}
+.add-new-wrapper .MuiInputBase-root {
+	width: 100% !important;
+	margin-top: 16px;
+	margin-bottom: 8px;
+}
+.MuiFormControl-marginNormal {
+	width: 100%;
+}

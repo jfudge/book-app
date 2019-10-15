@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+.book-list {
+	padding: 20px 0 6rem;
+	font-family: 'Roboto', sans-serif;
+}
+.book-list h2 {
+	text-align: left;
+	font-size: 2.2rem;
+	color: #000;
+	padding-left: 20px;
+}
+h6 {
+	color: #000;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: left;
+}
+.MuiTypography-subtitle1 {
+	line-height: 1 !important;
+}
+.bookicn {
+	font-size: 70px;
+	font-weight: bold;
+}
+.addbtn {
+	text-align: left;
+	margin: 15px;
+}
+.library {
+	border-radius: 6px;
+	padding: .5rem;
+	margin: 15px;
+	height: 75px;
+}
+.library p, .library time {
+	color: #000;
+	font-size: .75rem;
+	display: inline-block;
+	text-align: left;
+}
+.title {
+	color: #000;
+	text-transform: uppercase;
+	font-weight: bold !important;
+}
+.largeIcon {
+	font-size: 60px;
+	color: #dc3545;
+}
+.author {
+	color: #000;
+	text-transform: capitalize;
+}
+.remove {
+	text-align: right;
+}

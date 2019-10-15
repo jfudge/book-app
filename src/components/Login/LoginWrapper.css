@@ -1,0 +1,18 @@
+.login-body {
+	border-radius: 6px;
+	background-color: gainsboro;
+	padding: 2rem;
+	height: 725px;
+}
+.login-footer {
+	background-color: gainsboro;
+}
+.login-img {
+	background-image: url("/img/books.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.login-footer button {
+	margin: 20px;
+}
