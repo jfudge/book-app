@@ -25,4 +25,3 @@ $ npm run start:client
 $ npm build:client
 
 ```
-$ npm build:tv
