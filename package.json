@@ -4,11 +4,13 @@
   "description": "HackerYou Fullstack Masterclass Project",
   "main": "index.js",
   "scripts": {
+    "client-install": "npm install --prefix client",
     "test": "react-scripts test",
     "start:mongo": "mongod --config /usr/local/etc/mongod.conf",
     "start:server": "nodemon api/server.js --ignore client",
     "start:client": "react-scripts start",
-    "build:client": "react-scripts build"
+    "build:client": "react-scripts build",
+    "heroku-postbuild":      "NPM_CONFIG_PRODUCTION=false npm install --prefix client        && npm run build --prefix client"  
   },
   "homepage": "https://github.com/HackerYou/con-ed-full-stack#readme",
   "dependencies": {
