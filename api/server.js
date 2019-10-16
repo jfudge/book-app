@@ -9,6 +9,8 @@ const middleWare = require('./middleware');
 
 const router = express();
 
+app.use('/', express.static(path.join(__dirname, '../build')))
+
 const { router: userRoutes } = require('./routes/users/userRoutes');
 const { router: bookRoutes } = require('./routes/books/bookRoutes');
 
@@ -34,4 +36,8 @@ mongoose
   })
   .catch((err) => {
     console.error(err);
+  })
+
+  app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '../build/index.html'))
   })
