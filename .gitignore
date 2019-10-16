@@ -3,3 +3,4 @@ constants.js
 build/*
 !build/build.xml
 build
+build/
